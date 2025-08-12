@@ -1,0 +1,1 @@
+cd /home/site/wwwroot && npx serve -s . -l 8080 

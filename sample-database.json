@@ -1,0 +1,158 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "firstName": "System",
+            "lastName": "Administrator",
+            "email": "admin@workwise.com",
+            "employeeId": "ADMIN001",
+            "role": "Admin",
+            "teamId": null,
+            "teamName": null,
+            "isActive": true,
+            "emailVerified": true,
+            "createdAt": "2025-01-01T00:00:00.000Z",
+            "updatedAt": "2025-01-01T00:00:00.000Z"
+        },
+        {
+            "id": 2,
+            "firstName": "John",
+            "lastName": "Doe",
+            "email": "john.doe@workwise.com",
+            "employeeId": "EMP001",
+            "role": "TeamLead",
+            "teamId": 1,
+            "teamName": "Development Team",
+            "isActive": true,
+            "emailVerified": true,
+            "createdAt": "2025-01-01T00:00:00.000Z",
+            "updatedAt": "2025-01-01T00:00:00.000Z"
+        },
+        {
+            "id": 3,
+            "firstName": "Jane",
+            "lastName": "Smith",
+            "email": "jane.smith@workwise.com",
+            "employeeId": "EMP002",
+            "role": "Employee",
+            "teamId": 1,
+            "teamName": "Development Team",
+            "isActive": true,
+            "emailVerified": true,
+            "createdAt": "2025-01-01T00:00:00.000Z",
+            "updatedAt": "2025-01-01T00:00:00.000Z"
+        },
+        {
+            "id": 4,
+            "firstName": "Surya",
+            "lastName": "Kumar",
+            "email": "skumar302@workwise.com",
+            "employeeId": "2388544",
+            "role": "Employee",
+            "teamId": 1,
+            "teamName": "Development Team",
+            "isActive": true,
+            "emailVerified": true,
+            "createdAt": "2025-01-01T00:00:00.000Z",
+            "updatedAt": "2025-01-01T00:00:00.000Z"
+        }
+    ],
+    "rosters": [
+        {
+            "id": 1,
+            "userId": 4,
+            "userName": "Surya Kumar",
+            "email": "skumar302@workwise.com",
+            "role": "Employee",
+            "teamId": 1,
+            "teamName": "Development Team",
+            "weekStartDate": "2025-08-11",
+            "weekEndDate": "2025-08-17",
+            "workFromOfficeDays": [
+                "2025-08-11",
+                "2025-08-12",
+                "2025-08-13"
+            ],
+            "workFromHomeDays": [
+                "2025-08-14",
+                "2025-08-15"
+            ],
+            "leaveDays": [],
+            "status": "Submitted",
+            "submittedAt": "2025-08-10T10:30:00.000Z",
+            "createdAt": "2025-08-10T10:30:00.000Z",
+            "updatedAt": "2025-08-10T10:30:00.000Z",
+            "createdBy": 4,
+            "updatedBy": 4
+        }
+    ],
+    "teams": [
+        {
+            "id": 1,
+            "name": "Development Team",
+            "description": "Software development team",
+            "teamLeadId": 2,
+            "teamLeadName": "John Doe",
+            "memberCount": 3,
+            "isActive": true,
+            "createdAt": "2025-01-01T00:00:00.000Z",
+            "updatedAt": "2025-01-01T00:00:00.000Z",
+            "createdBy": 1
+        }
+    ],
+    "holidays": [
+        {
+            "id": 1,
+            "name": "New Year's Day",
+            "date": "2025-01-01",
+            "description": "New Year's Day",
+            "isActive": true,
+            "createdAt": "2025-01-01T00:00:00.000Z",
+            "updatedAt": "2025-01-01T00:00:00.000Z",
+            "createdBy": 1
+        },
+        {
+            "id": 2,
+            "name": "Independence Day",
+            "date": "2025-08-15",
+            "description": "Indian Independence Day",
+            "isActive": true,
+            "createdAt": "2025-01-01T00:00:00.000Z",
+            "updatedAt": "2025-01-01T00:00:00.000Z",
+            "createdBy": 1
+        }
+    ],
+    "leaves": [
+        {
+            "id": 1,
+            "userId": 4,
+            "userName": "Surya Kumar",
+            "email": "skumar302@workwise.com",
+            "role": "Employee",
+            "teamId": 1,
+            "teamName": "Development Team",
+            "leaveType": "Sick Leave",
+            "startDate": "2025-08-20",
+            "endDate": "2025-08-21",
+            "totalDays": 2,
+            "reason": "Not feeling well",
+            "status": "Approved",
+            "createdAt": "2025-08-15T09:00:00.000Z",
+            "updatedAt": "2025-08-15T09:00:00.000Z"
+        }
+    ],
+    "notifications": [
+        {
+            "id": 1,
+            "userId": 4,
+            "title": "Roster Submitted",
+            "message": "Your roster for the week of Aug 11-17 has been submitted successfully.",
+            "type": "success",
+            "isRead": false,
+            "createdAt": "2025-08-10T10:30:00.000Z",
+            "updatedAt": "2025-08-10T10:30:00.000Z"
+        }
+    ],
+    "currentUser": null,
+    "lastUpdated": "2025-08-10T10:30:00.000Z"
+}

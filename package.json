@@ -9,6 +9,7 @@
         "test": "ng test",
         "build:prod": "ng build --configuration production",
         "build:gh-pages": "ng build --configuration production --base-href=/roaster-planner/",
+        "deploy": "ng deploy --base-href=https://suryakumar-exe.github.io/roaster-planner/",
         "postinstall": "npm run build:prod"
     },
     "private": true,
